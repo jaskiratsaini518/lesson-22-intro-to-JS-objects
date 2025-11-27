@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Homework</title>
+</head>
+
+<body>
+    <p id="result"></p>
+
+    <script>
+        function addAll() {
+            var sum = 0;
+            for (var i = 0; i < arguments.length; i++) {
+                sum += arguments[i];
+            }
+            return sum;
+        }
+
+        document.getElementById("result").innerHTML = addAll(1, 2, 3, 4, 5);
+    </script>
+</body>
+
+</html>
